@@ -1,0 +1,15 @@
+# humanstxt.org/
+# The humans responsible & technology colophon
+
+# TEAM
+
+    Jamie Hall -- Lead developer -- @packetecho
+
+# TECHNOLOGY COLOPHON
+
+    HTML5, CSS3
+    Bootstrap 4
+
+# THANKS
+
+	Github -- http://github.com/
