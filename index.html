@@ -26,26 +26,34 @@
     <![endif]-->
 
     <!-- Fav and touch icons -->
-    <link rel="apple-touch-icon" href="./touch_icon.png">
-    <link rel="icon" href="./favicon.png">
-    <!--[if IE]><link rel="shortcut icon" href="./favicon.ico"><![endif]-->
-    <!-- or, set /favicon.ico for IE10 win -->
+    <link rel="apple-touch-icon" sizes="57x57" href="./apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="./apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="./apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="./apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="./apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="./apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="./apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="./apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="./apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="./android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="./favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./favicon-16x16.png">
+    <link rel="manifest" href="/manifest.json">
     <meta name="msapplication-TileColor" content="#ffffff">
-    <meta name="msapplication-TileImage" content="./tile_icon.png">
+    <meta name="msapplication-TileImage" content="./ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+    <!--[if IE]><link rel="shortcut icon" href="./favicon.ico"><![endif]-->
 
     <!-- Google Analytics -->
-    <script type="text/javascript">
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
-      var _gaq = _gaq || [];
-      _gaq.push(['_setAccount', 'UA-46010739-1']);
-      _gaq.push(['_trackPageview']);
-
-      (function() {
-        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-      })();
-
+      ga('create', 'UA-46010739-1', 'auto');
+      ga('send', 'pageview');
     </script>
   </head>
 
@@ -64,7 +72,7 @@
     <main id="content" class="p-t-lg">
       <div class="container">
         <div class="row">
-          <div class="col-sm-12">
+          <div class="col-lg-12">
             <p class="lead">Mistral Gymnastics Club was formed in September 2006 and is registered with British Gymnastics, the sport’s governing body. We are a non-profit-making organisation and run courses in general gymnastics and trampolining at the Taro Leisure Centre in Petersfield, Hampshire.</p>
 
             <p class="lead">At Mistral Gymnastics Club, our philosophy is: <strong>Make it safe, make it fun, make it happen.</strong></p>
@@ -79,8 +87,8 @@
             </dl>
           </div>
         </div>
-        <div class="row p-t-lg">
-          <div class="col-sm-12">
+        <div class="row p-t-md">
+          <div class="col-lg-12">
             <h2><i class="icon icon-clock"></i> Classes</h2>
             <p class="lead">We run recreational classes in two gymnastics disciplines for children aged from 4-11 years.</p>
 
@@ -100,8 +108,8 @@
             </dl>
           </div>
         </div>
-        <div class="row p-t-lg">
-          <div class="col-sm-12">
+        <div class="row p-t-md">
+          <div class="col-lg-12">
             <h2><i class="icon icon-links"></i> Links</h2>
             <p class="lead">Some related websites of interest</p>
             <dl class="dl-horizontal">
@@ -114,14 +122,14 @@
             </dl>
           </div>
         </div>
-        <div class="row p-t-lg">
-          <div class="col-sm-12">
+        <div class="row p-t-md">
+          <div class="col-lg-12">
             <h2><i class="icon icon-contact"></i> Contact Us</h2>
             <p class="lead">Please get in touch with Karen at <a href="mailto:karen.bevis@virgin.net">karen.bevis@virgin.net</a></p>
           </div>
         </div>
-        <div class="row p-t-lg">
-          <div class="col-sm-12">
+        <div class="row p-t-md">
+          <div class="col-lg-12">
             <h2><i class="icon icon-map"></i> Find Us</h2>
             <p class="lead section-lead">Classes are held at the Taro Leisure Centre, Petersfield.</p>
             <div class="row">
