@@ -58,11 +58,26 @@ header {
     text-decoration: none
 }
 
-@media(min-width:768px) {
-    .masthead.content-header {
-        background-color: #fff;
-        background-image: none
-    }
+@media (max-width: 33.9em) {
+  .dl-horizontal {
+    margin-right: -0.9375rem;
+    margin-left: -0.9375rem;
+  }
+
+  .masthead h1 {
+      padding-left: 0;
+      text-align: center;
+  }
+
+  .masthead-mistral {
+      padding-left: 0;
+  }
+}
+
+@media (min-width: 48em) {
+  dl.dl-horizontal dt {
+    text-align: right;
+  }
 }
 
 #map {
